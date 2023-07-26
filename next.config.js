@@ -53,6 +53,7 @@ const securityHeaders = [
 ]
 
 module.exports = withBundleAnalyzer({
+  basePath: process.env.BASE_PATH || '',
   reactStrictMode: true,
   pageExtensions: ['js', 'jsx', 'md', 'mdx'],
   eslint: {
