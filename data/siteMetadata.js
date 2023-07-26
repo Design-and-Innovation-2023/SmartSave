@@ -1,6 +1,6 @@
 const siteMetadata = {
   title: 'Team 7A Design Project',
-  author: 'Carlsen, Arshad, Kai Mun, Jourdan, Nasruddine, Matthew',
+  author: 'Team 7A',
   headerTitle: 'Team 7A Design Project',
   description: 'SmartSaver',
   language: 'en-us',
