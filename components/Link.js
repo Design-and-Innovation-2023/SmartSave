@@ -4,7 +4,11 @@ const CustomLink = ({ href, ...rest }) => {
   const isInternalLink = href && href.startsWith('/')
   const isAnchorLink = href && href.startsWith('#')
 
-  if (isInternalLink || isAnchorLink) {
+  if (isInternalLink) {
+    return <a href={`${process.env.BASE_PATH || ''}${href}`} {...rest} />
+  }
+
+  if (isAnchorLink) {
     return <a href={href} {...rest} />
   }
 
