@@ -20,7 +20,7 @@ export default function Dailies({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="divide-y divide-gray-200 dark:divide-gray-700">
-        <h1 className="my-5 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14">
+        <h1 className="space-y-2 pt-6 pb-8 text-3xl font-extrabold leading-9 tracking-tight text-gray-900 dark:text-gray-100 sm:text-4xl sm:leading-10 md:space-y-5 md:text-6xl md:leading-14">
           Dailies
         </h1>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
