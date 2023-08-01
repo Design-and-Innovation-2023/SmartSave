@@ -1,3 +1,26 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid meet" viewBox="344.5639097744361 330.27819548872174 111.73684210526318 91.21804511278197" width="53.87" height="43.61"><defs><path d="M453.3 331.28L453.3 359.85L388.64 418.5L388.64 388.42L453.3 331.28Z" id="aFZf6T5ED"></path><linearGradient id="gradientb2ThqnP5Op" gradientUnits="userSpaceOnUse" x1="420.97" y1="331.28" x2="420.97" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient><path d="M410.23 331.28L410.23 359.85L345.56 418.5L345.56 388.42L410.23 331.28Z" id="a9fehgwfM"></path><linearGradient id="gradientk1wNV9Ostb" gradientUnits="userSpaceOnUse" x1="377.89" y1="331.28" x2="377.89" y2="418.5"><stop style="stop-color: #06b6d4;stop-opacity: 1" offset="0%"></stop><stop style="stop-color: #67e8f9;stop-opacity: 1" offset="100%"></stop></linearGradient></defs><g><g><use xlink:href="#aFZf6T5ED" opacity="1" fill="url(#gradientb2ThqnP5Op)"></use></g><g><use xlink:href="#a9fehgwfM" opacity="1" fill="url(#gradientk1wNV9Ostb)"></use></g></g></svg>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="42.000000pt" height="42.000000pt" viewBox="0 0 317.000000 367.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+<g transform="translate(0.000000,367.000000) scale(0.100000,-0.100000)"
+fill="#000000" stroke="none">
+<path d="M1048 3204 c-202 -49 -338 -211 -355 -423 -18 -245 123 -408 457
+-526 311 -110 420 -231 420 -466 0 -239 -157 -400 -405 -416 -87 -6 -149 4
+-240 38 -67 25 -179 127 -214 197 -12 23 -23 42 -26 42 -2 0 -20 -9 -39 -21
+l-36 -21 22 -41 c37 -68 155 -180 226 -215 178 -88 419 -80 572 18 59 38 115
+93 150 147 l27 42 40 -62 c72 -113 206 -195 458 -280 180 -61 228 -83 281
+-130 104 -91 104 -293 0 -372 -79 -61 -118 -70 -286 -70 -143 1 -161 3 -235
+28 -44 16 -109 45 -145 65 -36 20 -68 38 -72 40 -3 2 -38 -52 -77 -120 l-71
+-123 72 -37 c265 -136 618 -167 860 -75 107 41 182 96 248 183 65 86 92 169
+98 299 13 317 -131 476 -548 604 -119 37 -232 89 -273 126 -37 33 -67 100 -67
+151 0 96 52 174 144 216 45 20 66 23 181 23 144 0 214 -14 324 -65 35 -17 65
+-30 67 -30 9 0 124 242 119 250 -9 14 -158 69 -248 90 -221 54 -500 27 -645
+-62 -52 -31 -139 -115 -175 -167 l-30 -44 -25 49 c-58 114 -184 200 -430 293
+-213 80 -309 149 -361 260 -23 49 -26 68 -26 161 0 93 3 112 26 161 34 71 87
+125 164 165 163 86 351 68 496 -47 33 -26 92 -102 101 -131 5 -13 78 22 78 38
+0 7 -20 38 -44 71 -47 61 -113 117 -183 152 -97 49 -258 64 -375 35z"/>
+</g>
+</svg>

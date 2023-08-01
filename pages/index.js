@@ -1,11 +1,7 @@
 import Image from '@/components/Image'
-import Link from '@/components/Link'
-import PageTitle from '@/components/PageTitle'
 import { PageSEO } from '@/components/SEO'
-import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
 import { getAllFilesFrontMatter } from '@/lib/mdx'
-import formatDate from '@/lib/utils/formatDate'
 
 export async function getStaticProps() {
   const posts = await getAllFilesFrontMatter('blog')
@@ -13,11 +9,11 @@ export async function getStaticProps() {
   return { props: { posts } }
 }
 
-export default function Home({ posts }) {
+export default function Home() {
   return (
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="divide-y divide-gray-200 dark:divide-gray-700">
+      <div>
         <div className="relative mb-8 mr-auto ">
           <Image
             src="/static/images/smartsave.png"
@@ -27,57 +23,62 @@ export default function Home({ posts }) {
             className="rounded-full"
           />
         </div>
-        <ul className="divide-y divide-gray-200 dark:divide-gray-700">
-          {!posts.length && 'No posts found.'}
-          {posts.map((frontMatter) => {
-            const { slug, date, title, summary, tags } = frontMatter
-            return (
-              <li key={slug} className="py-12">
-                <article>
-                  <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
-                    <dl>
-                      <dt className="sr-only">Published on</dt>
-                      <dd className="text-base font-medium leading-6 text-gray-500 dark:text-gray-400">
-                        <time dateTime={date}>{formatDate(date)}</time>
-                      </dd>
-                    </dl>
-                    <div className="space-y-5 xl:col-span-3">
-                      <div className="space-y-6">
-                        <div>
-                          <h2 className="text-2xl font-bold leading-8 tracking-tight">
-                            <Link
-                              href={`/blog/${slug}`}
-                              className="text-gray-900 dark:text-gray-100"
-                            >
-                              {title}
-                            </Link>
-                          </h2>
-                          <div className="flex flex-wrap">
-                            {tags.map((tag) => (
-                              <Tag key={tag} text={tag} />
-                            ))}
-                          </div>
-                        </div>
-                        <div className="prose max-w-none text-gray-500 dark:text-gray-400">
-                          {summary}
-                        </div>
-                      </div>
-                      <div className="text-base font-medium leading-6">
-                        <Link
-                          href={`/blog/${slug}`}
-                          className="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
-                          aria-label={`Read "${title}"`}
-                        >
-                          Read more &rarr;
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                </article>
-              </li>
-            )
-          })}
-        </ul>
+        <div className="mt-10 text-5xl font-thin">
+          Your savings journey <em>elegantly</em> streamlined.
+          <p className="font-light">
+            Allow your assets to <em>flourish </em>like never before.
+          </p>
+        </div>
+      </div>
+      <span className="mt-28 inline-grid grid-cols-3 gap-44">
+        <div className="text-center drop-shadow-md hover:drop-shadow-xl">
+          <div className="inline-block rounded-full bg-[#f5f5f5]">
+            <Image
+              src="/static/images/cost-effective.png"
+              alt="cost-effective"
+              width="300px"
+              height="300px"
+              className="p-8"
+            />
+          </div>
+          <p className="mt-2 text-xl font-medium">Cost-effective</p>
+        </div>
+        <div className="text-center drop-shadow-md hover:drop-shadow-xl">
+          <div className="inline-block rounded-full bg-[#f5f5f5]">
+            <Image
+              src="/static/images/swift.png"
+              alt="swift"
+              width="300px"
+              height="300px"
+              className="p-8"
+            />
+          </div>
+          <p className="mt-2 text-xl font-medium">Swift</p>
+        </div>
+        <div className="text-center drop-shadow-md hover:drop-shadow-xl">
+          <div className="inline-block rounded-full bg-[#f5f5f5]">
+            <Image
+              src="/static/images/multiplatform.png"
+              alt="multiplatform"
+              width="300px"
+              height="300px"
+              className="p-8"
+            />
+          </div>
+          <p className="mt-2 text-xl font-medium">Multi-platform</p>
+        </div>
+      </span>
+      <div className="mt-36 mb-8">
+        <div className="flex shrink-0 flex-col items-center">
+          <button
+            onClick={() => {
+              window.location.href = '/smartSave'
+            }}
+            className="rounded-full bg-neutral-900 px-4 py-2 text-base text-sm font-semibold leading-6 text-neutral-50 shadow-sm hover:bg-neutral-50 hover:text-neutral-900"
+          >
+            Learn More
+          </button>
+        </div>
       </div>
     </>
   )
