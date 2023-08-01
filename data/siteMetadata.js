@@ -5,8 +5,8 @@ const siteMetadata = {
   description: 'SmartSave',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
-  siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
+  siteUrl: 'https://design-and-innovation-2023.github.io/Team7A/',
+  siteRepo: 'https://github.com/Design-and-Innovation-2023/Team7A',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
