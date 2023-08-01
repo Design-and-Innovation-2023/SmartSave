@@ -53,7 +53,7 @@ export default function Home() {
         Our features are <em>designed</em> to help you save effectively, and on any device.
       </p>
       <span className="mt-20 inline-grid grid-cols-3 gap-44">
-        <div className="animate-fade-up text-center drop-shadow-md animate-once animate-ease-in-out hover:drop-shadow-xl">
+        <div className="text-center drop-shadow-md hover:drop-shadow-xl">
           <div className="inline-block rounded bg-neutral-50">
             <Image
               src="/static/images/cost-effective.png"
