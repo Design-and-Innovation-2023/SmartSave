@@ -16,8 +16,8 @@ import ProfileCard from './ProfileCard.js'
 
 <ProfileCard 
   name="Arshad"
-  avatar="static/images/sparrowhawk-avatar.jpg"
-  description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, sapien vel bibendum bibendum, velit sapien faucibus sapien, vel bibendum sapien sapien vel sapien"
+  avatar="static/images/profile/Arshad_Avatar.jpg"
+  description="With thorough ideation; resist the urge to rush into conceptualization. Recognize the ability to restart to create ground-breaking ideas"
 />
 
 <ProfileCard 
