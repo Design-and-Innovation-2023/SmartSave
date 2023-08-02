@@ -1,9 +1,17 @@
+import React, { useState, useEffect } from 'react'
 import Image from '@/components/Image'
 import ImageModal from '@/components/ImageModal'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 
 export default function DesignJourney() {
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }
+
   return (
     <>
       <p className="my-14 text-center font-thin text-6xl">Our Design Journey</p>
@@ -156,6 +164,14 @@ export default function DesignJourney() {
           <h2 className="text-2xl font-semibold"></h2>
           <Image src={'/static/images/architecture.png'} className="w-full h-auto" />
         </div>
+      </div>
+      <div className="my-12 flex shrink-0 flex-col items-center">
+        <button
+          onClick={scrollToTop}
+          className="rounded-full bg-neutral-900 px-4 py-2 text-base text-sm font-semibold leading-6 text-neutral-50 shadow-sm outline hover:bg-neutral-50 hover:text-neutral-900 hover:transition-all"
+        >
+          Back to Top
+        </button>
       </div>
     </>
   )
