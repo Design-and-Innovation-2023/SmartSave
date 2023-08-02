@@ -25,7 +25,7 @@ export default function Dailies({ posts }) {
           {!posts.length && 'No posts found.'}
           {posts.map((frontMatter) => {
             const { slug, date, title, summary, tags } = frontMatter
-            if (tags.includes('dailies')) {
+            if (tags.includes('dailies') || tags.includes('Weekly Pitch')) {
               return (
                 <li key={slug} className="py-12">
                   <article>

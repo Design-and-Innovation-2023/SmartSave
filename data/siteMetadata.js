@@ -1,7 +1,7 @@
 const siteMetadata = {
-  title: 'Team 7A Design Project',
+  title: 'SmartSave',
   author: 'Team 7A',
-  headerTitle: 'Team 7A Design Project',
+  headerTitle: 'SmartSave',
   description: 'SmartSave',
   language: 'en-us',
   theme: 'light', // system, dark or light
