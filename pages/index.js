@@ -155,7 +155,7 @@ export default function Home() {
         <div className="flex shrink-0 flex-col items-center">
           <button
             onClick={() => {
-              window.location.href = window.location.href + '/smartsave'
+              window.location.href = window.location.href + 'smartsave'
             }}
             className="rounded-full bg-neutral-900 px-4 py-2 text-base text-sm font-semibold leading-6 text-neutral-50 shadow-sm outline hover:bg-neutral-50 hover:text-neutral-900 hover:transition-all"
           >
