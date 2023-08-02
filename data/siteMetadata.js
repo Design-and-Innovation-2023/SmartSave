@@ -4,7 +4,7 @@ const siteMetadata = {
   headerTitle: 'Team 7A Design Project',
   description: 'SmartSave',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'light', // system, dark or light
   siteUrl: 'https://design-and-innovation-2023.github.io/Team7A/',
   siteRepo: 'https://github.com/Design-and-Innovation-2023/Team7A',
   siteLogo: '/static/images/logo.png',
