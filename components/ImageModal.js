@@ -47,7 +47,7 @@ function ImageModal({ src }) {
             X
           </button>
           <div onWheel={handleWheel} className="max-w-full max-h-full overflow-auto">
-            <Image src={src} alt="Full size" />
+            <Image src={`${process.env.BASE_PATH || ''}${src}`} alt="Full size" />
           </div>
         </div>
       )}
