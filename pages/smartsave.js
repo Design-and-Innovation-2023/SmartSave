@@ -143,7 +143,7 @@ export default function SmartSave() {
           viewport={{ once: true }}
           variants={variants2}
         >
-          <YouTube youTubeId="mPpSH9488L8" autoPlay="true" />
+          <YouTube youTubeId="OnEyLe_2Mzs" autoPlay="true" />
         </motion.div>
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
           <svg
