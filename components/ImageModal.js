@@ -27,7 +27,7 @@ function ImageModal({ src }) {
           >
             X
           </button>
-          <img src={src} alt="Full size" className="max-w-full max-h-full" />
+          <Image src={src} alt="Full size" className="max-w-full max-h-full" />
         </div>
       )}
     </>
