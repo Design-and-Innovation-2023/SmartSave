@@ -152,6 +152,7 @@ export default function SmartSave() {
       </p>
       <div className="mt-12 grid grid-cols-2 gap-6">
         <motion.div
+          className="flex flex-col items-center text-center shadow-md hover:shadow-xl bg-neutral-50 rounded-lg p-2"
           initial="hide"
           whileInView="show"
           viewport={{ once: true }}
@@ -164,6 +165,7 @@ export default function SmartSave() {
           />
         </motion.div>
         <motion.div
+          className="flex flex-col items-center text-center shadow-md hover:shadow-xl bg-neutral-50 rounded-lg p-2"
           initial="hide"
           whileInView="show"
           viewport={{ once: true }}
@@ -176,6 +178,7 @@ export default function SmartSave() {
           />
         </motion.div>
         <motion.div
+          className="flex flex-col items-center text-center shadow-md hover:shadow-xl bg-neutral-50 rounded-lg p-2"
           initial="hide"
           whileInView="show"
           viewport={{ once: true }}
@@ -188,6 +191,7 @@ export default function SmartSave() {
           />
         </motion.div>
         <motion.div
+          className="flex flex-col items-center text-center shadow-md hover:shadow-xl bg-neutral-50 rounded-lg p-2"
           initial="hide"
           whileInView="show"
           viewport={{ once: true }}
