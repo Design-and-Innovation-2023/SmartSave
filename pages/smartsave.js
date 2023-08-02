@@ -145,6 +145,22 @@ export default function SmartSave() {
         >
           <YouTube youTubeId="mPpSH9488L8" autoPlay="true" />
         </motion.div>
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            className="animate-bounce h-8 w-8 mb-4 text-white"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="1.2"
+              d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"
+            />
+          </svg>
+        </div>
       </div>
       <div id="blankDiv"></div>
       <p className="text-center mt-16 font-light text-4xl">
