@@ -1,6 +1,7 @@
 import FeatureCard from '@/components/FeatureCard.js'
 import Image from '@/components/Image'
 import { YouTube } from 'mdx-embed'
+import CustomLink from '@/components/Link'
 import { useEffect } from 'react'
 import { Document } from 'react-pdf'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
@@ -30,26 +31,36 @@ export default function SmartSave() {
       </p>
       <div className="mt-12 grid grid-cols-2 gap-6">
         <FeatureCard
-          title="Feature 1"
-          image="/static/images/smartsave.png"
-          description="This is a description of feature 1"
+          title="Financial Dashboard"
+          image="/static/images/SmartSave/FinancialDashboard.png"
+          description="Experience a new level of financial clarity with SmartSave! Our dashboard provides a crystal-clear view of your financial landscape. Watch your earnings grow in real-time as you unlock the power of smarter saving."
         />
         <FeatureCard
-          title="Feature 2"
-          image="/static/images/smartsave.png"
-          description="This is a description of feature 2"
+          title="Smart Notifications"
+          image="/static/images/SmartSave/SmartNotifications.png"
+          description="SmartSave revolutionises savings, proactively scanning financial markets for lucrative opportunities. Get real-time alerts, and choose between our effortless auto-switch feature or manual transfers. With SmartSave, you command your financial destiny."
         />
         <FeatureCard
-          title="Feature 3"
-          image="/static/images/smartsave.png"
-          description="This is a description of feature 3"
+          title="Fixed Rate Accounts"
+          image="/static/images/SmartSave/FixedRate.png"
+          description="Maximize your returns with SmartSave. We identify high-yield Fixed Rate savings accounts that suit you and automate renewals to keep your money constantly growing."
         />
         <FeatureCard
-          title="Feature 4"
-          image="/static/images/smartsave.png"
-          description="This is a description of feature 4"
+          title="Easy Access Accounts"
+          image="/static/images/SmartSave/EasyAccess.png"
+          description="Experience saving that adapts to your spending habits with SmartSave. We match your spending patterns with banks' cashback offers to recommend profitable Easy Access savings accounts. With SmartSave, every dollar works harder for you."
         />
       </div>
+
+      <h2 className="m-32 text-3xl font-semibold text-center">
+        Interested to try?{' '}
+        <CustomLink
+          className="underline"
+          href="https://www.figma.com/proto/fZnM7DuDcBtUIEpjrvzVm8/Interest-Rate-UI?type=design&node-id=505-11&t=jPaewlO8cXTvAGV5-0&scaling=contain&page-id=0%3A1&starting-point-node-id=505%3A11"
+        >
+          Visit our Figma!
+        </CustomLink>
+      </h2>
 
       <p className="mt-32 mb-12 text-center font-thin text-5xl">Our Design Journey</p>
 
