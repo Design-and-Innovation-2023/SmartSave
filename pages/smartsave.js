@@ -235,7 +235,7 @@ export default function SmartSave() {
       <h2 className="m-24 text-3xl font-semibold text-center">
         Interested to try?{' '}
         <CustomLink
-          className="underline"
+          className="p-1 underline hover:bg-black hover:text-white hover:rounded"
           href="https://www.figma.com/proto/fZnM7DuDcBtUIEpjrvzVm8/Interest-Rate-UI?type=design&node-id=505-11&t=jPaewlO8cXTvAGV5-0&scaling=contain&page-id=0%3A1&starting-point-node-id=505%3A11"
         >
           Visit our Figma!
