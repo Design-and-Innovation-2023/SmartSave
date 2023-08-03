@@ -1,3 +1,4 @@
+import React, { useRef } from 'react'
 import FeatureCard from '@/components/FeatureCard.js'
 import { YouTube } from 'mdx-embed'
 import CustomLink from '@/components/Link'
@@ -6,6 +7,12 @@ import { motion } from 'framer-motion'
 import 'react-vertical-timeline-component/style.min.css'
 
 export default function SmartSave() {
+  const featuresRef = useRef(null)
+
+  const scrollToFeatures = () => {
+    featuresRef.current.scrollIntoView({ behavior: 'smooth' })
+  }
+
   useEffect(() => {
     let absoluteDivHeight = document.getElementById('absoluteDiv').offsetHeight
     let blankDiv = document.getElementById('blankDiv')
@@ -145,13 +152,14 @@ export default function SmartSave() {
         >
           <YouTube youTubeId="OnEyLe_2Mzs" autoPlay="true" />
         </motion.div>
-        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2">
+        <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 hover:cursor-pointer">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             className="animate-bounce h-8 w-8 mb-4 text-white"
             viewBox="0 0 16 16"
+            onClick={scrollToFeatures}
           >
             <path
               fill="none"
@@ -163,7 +171,7 @@ export default function SmartSave() {
         </div>
       </div>
       <div id="blankDiv"></div>
-      <p className="text-center mt-16 font-light text-4xl">
+      <p className="text-center mt-16 font-light text-4xl" ref={featuresRef}>
         Our <em>main</em> features include...
       </p>
       <div className="mt-12 grid grid-cols-2 gap-6">
