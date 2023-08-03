@@ -39,10 +39,12 @@ export default function DesignJourney() {
           <p>
             Initially, we gathered for our first meeting and collectively came up with a set of
             questions to ask our client in our upcoming meeting. We also collaborated with Team 7B
-            to refine these questions. In our first client meeting, we had the opportunity to
-            understand the problem they were facing and the overall project scope. After the
-            meeting, we individually brainstormed ideas and agreed to reconvene later to solidify
-            our approach.
+            to refine these questions.
+            <br></br>
+            <br></br>
+            In our first client meeting, we had the opportunity to understand the problem they were
+            facing and the overall project scope. After the meeting, we individually brainstormed
+            ideas and agreed to reconvene later to solidify our approach.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -65,10 +67,13 @@ export default function DesignJourney() {
             We came together and reached a consensus on the key concepts for the solution, which
             involved providing access to interest rates, enabling account 'hopping', setting up a
             notification system, and automating the transfer of funds. We also defined our project
-            goals and began sketching out potential layouts. During a brainstorming session, we
-            delved into the specific features of the solution, considered user expectations, and
-            focused on designing the 'Easy Access Accounts' feature (refer above). To ensure the
-            best outcome, we gathered feedback from other groups and consulted potential users.
+            goals and began sketching out potential layouts.
+            <br></br>
+            <br></br>
+            During a brainstorming session, we delved into the specific features of the solution,
+            considered user expectations, and focused on designing the 'Easy Access Accounts'
+            feature (refer above). To ensure the best outcome, we gathered feedback from other
+            groups and consulted potential users.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -89,10 +94,14 @@ export default function DesignJourney() {
             After receiving feedback from professors and teaching assistants, we discussed about
             potential users and concerns related to trust. To gather more valuable insights, we
             planned to conduct additional surveys while simultaneously working on a specific
-            prototype. Using the Figma design tool, we started creating our initial prototypes.
-            During the prototyping phase, we explored two different models for fund transfers and
-            ultimately settled on a semi-automated system.
-            <p></p>
+            prototype.
+            <br></br>
+            <br></br>
+            Using the Figma design tool, we started creating our initial prototypes. During the
+            prototyping phase, we explored two different models for fund transfers and ultimately
+            settled on a semi-automated system.
+            <br></br>
+            <br></br>
             Currently, our main goals include collecting feedback from the client, finalizing
             flowcharts, commencing website development, and continuing our work on Figma and
             presentation slides for the team's recording.
