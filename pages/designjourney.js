@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react'
+import { PageSEO } from '@/components/SEO'
+import siteMetadata from '@/data/siteMetadata'
 import Image from '@/components/Image'
 import ImageModal from '@/components/ImageModal'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
@@ -14,6 +16,7 @@ export default function DesignJourney() {
 
   return (
     <>
+      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <p className="my-14 text-center font-thin text-6xl">Our Design Journey</p>
 
       <VerticalTimeline lineColor="black">

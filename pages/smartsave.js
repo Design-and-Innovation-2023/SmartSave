@@ -1,4 +1,6 @@
 import React, { useRef } from 'react'
+import { PageSEO } from '@/components/SEO'
+import siteMetadata from '@/data/siteMetadata'
 import FeatureCard from '@/components/FeatureCard.js'
 import { YouTube } from 'mdx-embed'
 import CustomLink from '@/components/Link'
@@ -121,6 +123,7 @@ export default function SmartSave() {
 
   return (
     <>
+      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div
         id="absoluteDiv"
         className="justify-center absolute left-0 w-full h-5/6 bg-neutral-950 flex items-center hover:bg-black"
