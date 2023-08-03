@@ -201,7 +201,7 @@ export default function SmartSave() {
           <FeatureCard
             title="Smart Notifications"
             image="/static/images/SmartSave/SmartNotifications.png"
-            description="SmartSave revolutionises savings, proactively scanning financial markets for lucrative opportunities. Get real-time alerts, and choose between our effortless auto-switch feature or manual transfers. With SmartSave, you command your financial destiny."
+            description="SmartSave revolutionises savings, proactively scanning financial markets for lucrative opportunities. Get real-time alerts and choose between our effortless auto-switch feature or do it yourself. With SmartSave, you command your financial destiny."
           />
         </motion.div>
         <motion.div

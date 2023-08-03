@@ -37,11 +37,12 @@ export default function DesignJourney() {
           />
           <h4 className="my-2 text-right">18 July - 19 July</h4>
           <p>
-            The team met up for the first time and brainstormed a list of questions for their first
-            client meeting. We also coordinated with Team 7B to finalise these questions. The team
-            also had their first meeting with the client, during which we learned about the problem
-            statement and the scope of their project. We decided to brainstorm ideas individually
-            and then meet again to finalise their approach.
+            Initially, we gathered for our first meeting and collectively came up with a set of
+            questions to ask our client in our upcoming meeting. We also collaborated with Team 7B
+            to refine these questions. In our first client meeting, we had the opportunity to
+            understand the problem they were facing and the overall project scope. After the
+            meeting, we individually brainstormed ideas and agreed to reconvene later to solidify
+            our approach.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -61,12 +62,13 @@ export default function DesignJourney() {
           />
           <h4 className="my-2 text-right">20 July - 21 July</h4>
           <p>
-            The team agreed on the main ideas for their solution, which include viewing interest
-            rates, account "hopping", notification systems, and automated transfers. We also laid
-            out their project goals and started sketching potential layouts. The team brainstormed
-            detailed features for the solution, identified potential user expectations, and worked
-            on the layout of the "easy access account" feature. We also worked on a notification
-            system and got feedback from other groups and a potential user.
+            We came together and reached a consensus on the key concepts for the solution, which
+            involved providing access to interest rates, enabling account 'hopping', setting up a
+            notification system, and automating the transfer of funds. We also defined our project
+            goals and began sketching out potential layouts. During a brainstorming session, we
+            delved into the specific features of the solution, considered user expectations, and
+            focused on designing the 'Easy Access Accounts' feature (refer above). To ensure the
+            best outcome, we gathered feedback from other groups and consulted potential users.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -84,12 +86,16 @@ export default function DesignJourney() {
           />
           <h4 className="my-2 text-right">24 July - 25 July</h4>
           <p>
-            The team reviewed feedback from professors and teaching assistants, discussed potential
-            users and trust issues, and decided to do more surveys while working on a specific
-            prototype. We also started prototyping on Figma. The team explored two models for
-            transferring funds and decided on a semi-automated system. We also listed their current
-            goals which include receiving feedback from the client, finalising flowcharts, starting
-            work on their website, and continuing work on Figma and slides for the team's recording.
+            After receiving feedback from professors and teaching assistants, we discussed about
+            potential users and concerns related to trust. To gather more valuable insights, we
+            planned to conduct additional surveys while simultaneously working on a specific
+            prototype. Using the Figma design tool, we started creating our initial prototypes.
+            During the prototyping phase, we explored two different models for fund transfers and
+            ultimately settled on a semi-automated system.
+            <p></p>
+            Currently, our main goals include collecting feedback from the client, finalizing
+            flowcharts, commencing website development, and continuing our work on Figma and
+            presentation slides for the team's recording.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -109,9 +115,10 @@ export default function DesignJourney() {
           />
           <h4 className="my-2 text-right">26 July</h4>
           <p>
-            The team met with the client again to discuss their current design and use flow. We
-            received feedback on the onboarding process, naming scheme, and information allocation.
-            We made plans to improve the overall design of the website and integrate the feedback.
+            We had another meeting with the client to discuss about our current design and how it is
+            being used. We received valuable feedback on the onboarding process, naming scheme, and
+            how information is presented on the prototype. With this feedback in mind, we made plans
+            to enhance the overall design of the prototype and incorporate the inputs we received.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -129,9 +136,9 @@ export default function DesignJourney() {
           />
           <h4 className="my-2 text-right">28 July</h4>
           <p>
-            The team conducted think-aloud usability tests to understand the user interaction with
-            the application. We discovered important insights regarding visual cues, sort
-            functionality, and the use of abbreviations.
+            We carried out 'think-aloud' usability tests to better understand how users interact
+            with the application. These tests provided valuable insights into visual cues, the
+            sorting functionality, and the use of abbreviations.
           </p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -147,10 +154,11 @@ export default function DesignJourney() {
           <Image src="/static/images/week-3/graph.png" alt="graph" className="max-h-96 m-auto" />
           <h4 className="text-right">31 July - 1 August</h4>
           <p>
-            The team worked on the Figma prototype and had discussions on the design of the poster.
-            We also scheduled a catch-up call with the client for the following day. The team met
-            with the client to discuss the current state of their prototype. We received feedback on
-            their prototype and worked on implementing it.
+            We continued our work on the Figma prototype and held discussions about the poster's
+            design. Additionally, we arranged a catch-up call with the client for the next day.
+            During the meeting with the client, we presented the current state of our prototype and
+            gathered valuable feedback. We then focused on incorporating the received feedback into
+            our prototype.
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>
