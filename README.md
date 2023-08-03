@@ -16,3 +16,14 @@ Many individuals strive to maximize their savings, but they often find the proce
 | Chuang Tuan Ming Matthew | 2717925C |
 | Arshad Bin Mazlan        | 2717931B |
 | Teo Wen Yu Carlsen       | 2717896T |
+
+## Built & Deployed With
+
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
+![Github Pages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white)
+
+## Acknowledgements
+
+[Tailwind Nextjs Starter Blog by timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog)
