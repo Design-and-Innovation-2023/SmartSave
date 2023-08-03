@@ -27,4 +27,5 @@ Many individuals strive to maximize their savings, but they often find the proce
 ## Acknowledgements
 
 [Tailwind Nextjs Starter Blog by timlrx](https://github.com/timlrx/tailwind-nextjs-starter-blog)
+
 [Base Template for Figma](https://www.figma.com/community/file/894542039433511203)
